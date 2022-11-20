@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
 def hello_world():
-    return "<h1>Hello world from Kubernetes - test 2!</h1>"
+    return "<h1>Hello world from Kubernetes - test 3!</h1>"
 
 
 if __name__ == '__main__':
